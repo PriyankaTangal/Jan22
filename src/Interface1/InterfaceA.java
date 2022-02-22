@@ -1,0 +1,10 @@
+package Interface1;
+
+public interface InterfaceA {
+	void a();//bydefault, public and abstract  
+	void b();  
+	void c();  
+	void d();  
+	}  
+
+

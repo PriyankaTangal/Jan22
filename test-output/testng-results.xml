@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[1]]>
+    </line>
+    <line>
+      <![CDATA[2]]>
+    </line>
+    <line>
+      <![CDATA[4]]>
+    </line>
+    <line>
+      <![CDATA[3]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="78" started-at="2022-02-21T21:25:08 IST" finished-at="2022-02-21T21:25:08 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="78" started-at="2022-02-21T21:25:08 IST" finished-at="2022-02-21T21:25:08 IST">
+      <class name="TestNG.Invocation">
+        <test-method status="PASS" signature="m1()[pri:0, instance:TestNG.Invocation@1f57539]" name="m1" is-config="true" duration-ms="0" started-at="2022-02-21T21:25:08 IST" finished-at="2022-02-21T21:25:08 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method status="PASS" signature="m2()[pri:0, instance:TestNG.Invocation@1f57539]" name="m2" is-config="true" duration-ms="1" started-at="2022-02-21T21:25:08 IST" finished-at="2022-02-21T21:25:08 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+        <test-method status="PASS" signature="m3()[pri:0, instance:TestNG.Invocation@1f57539]" name="m3" duration-ms="0" started-at="2022-02-21T21:25:08 IST" finished-at="2022-02-21T21:25:08 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+        <test-method status="PASS" signature="m4()[pri:0, instance:TestNG.Invocation@1f57539]" name="m4" is-config="true" duration-ms="0" started-at="2022-02-21T21:25:08 IST" finished-at="2022-02-21T21:25:08 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m4 -->
+      </class> <!-- TestNG.Invocation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
