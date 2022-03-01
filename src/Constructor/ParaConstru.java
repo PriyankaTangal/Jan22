@@ -2,16 +2,16 @@ package Constructor;
 
 
 public class ParaConstru {
-	int i;
-	String s;
-	ParaConstru(int a,String b)
+	int id;
+	String name;
+	ParaConstru(int i,String n)
 	{
-		i=a;
-		s=b;
+		id=i;
+		name=n;
 	}
 	void display()
 	{
-		System.out.println(i+" "+s);
+		System.out.println(id+" "+name);
 	}
 	public static void main(String[] args) {
 		ParaConstru pc=new ParaConstru(1,"Priya");

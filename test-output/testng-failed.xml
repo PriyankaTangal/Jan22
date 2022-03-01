@@ -3,15 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG.FBlogin">
+      <class name="TestNG.FailxmlCreation">
         <methods>
-          <include name="LastName"/>
-          <include name="genderSelection"/>
-          <include name="password"/>
-          <include name="FirstName"/>
-          <include name="MoNo"/>
+          <include name="m3"/>
+          <include name="m2"/>
         </methods>
-      </class> <!-- TestNG.FBlogin -->
+      </class> <!-- TestNG.FailxmlCreation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

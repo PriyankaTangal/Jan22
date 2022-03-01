@@ -4,7 +4,7 @@ public class SBI extends Bank
 {
 	int getRateOfIntrest() 
 	{
-		return 7;
+		return 10;
 	}
  
 }

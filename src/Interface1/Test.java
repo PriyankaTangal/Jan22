@@ -9,5 +9,4 @@ public class Test {
 		A.c();
 		A.d();
 	}
-
 }

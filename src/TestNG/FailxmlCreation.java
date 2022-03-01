@@ -1,12 +1,14 @@
 package TestNG;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.Assert;
 import org.testng.Reporter;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Invocation {
+public class FailxmlCreation {
 	@Test
 	public void m1()
 	{
@@ -16,16 +18,17 @@ public class Invocation {
 	public void m2()
 	{
 		Reporter.log("2",true);
+		AssertJUnit.fail();
 	}
 	@Test
 	public void m3()
 	{
 		Reporter.log("3",true);
+		AssertJUnit.fail();
 	}
-	@BeforeMethod
+	@Test
 	public void m4()
 	{
 		Reporter.log("4",true);
 	}
-
 }
